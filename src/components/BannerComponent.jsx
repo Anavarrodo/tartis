@@ -18,25 +18,25 @@ export default BannerComponent
 const Container = styled.div`
   width: 100%;
   height: calc(100vh - 70px);
-  background-image: url(${bannerImage}); /* Asegúrate de que la ruta esté correcta */
+  background-image: url(${bannerImage});
   background-size: cover;
   background-position: center;
-  margin-top: 70px; /* Da espacio para que el header no se superponga con el banner */
+  margin-top: 70px;
 `
 
 const FirstLineTitle = styled.p`
-  position: absolute; /* Habilita el desplazamiento del texto */
-  top: 200px; /* Mueve el texto 200px hacia abajo */
-  left: 150px; /* Mueve el texto 100px hacia la derecha */
+  position: absolute;
+  top: 200px;
+  left: 150px;
   color: #0b0f1d;
   line-height: 38.4px;
   font-size: 32px;
   font-family: 'fuenteRegular';
 `
 const SecondLineTitle = styled.p`
-  position: absolute; /* Habilita el desplazamiento del texto */
-  top: 230px; /* Mueve el texto 200px hacia abajo */
-  left: 150px; /* Mueve el texto 100px hacia la derecha */
+  position: absolute;
+  top: 230px;
+  left: 150px;
   color: #0b0f1d;
   line-height: 76.8px;
   font-size: 64px;
@@ -44,9 +44,9 @@ const SecondLineTitle = styled.p`
 `
 
 const FirstLineSubtitle = styled.p`
-  position: absolute; /* Habilita el desplazamiento del texto */
-  top: 380px; /* Mueve el texto 200px hacia abajo */
-  left: 150px; /* Mueve el texto 100px hacia la derecha */
+  position: absolute;
+  top: 380px;
+  left: 150px;
   color: #0b0f1d;
   line-height: 27.6px;
   font-size: 24px;
@@ -54,9 +54,9 @@ const FirstLineSubtitle = styled.p`
 `
 
 const SecondLineSubtitle = styled.p`
-  position: absolute; /* Habilita el desplazamiento del texto */
-  top: 410px; /* Mueve el texto 200px hacia abajo */
-  left: 150px; /* Mueve el texto 100px hacia la derecha */
+  position: absolute;
+  top: 410px;
+  left: 150px;
   color: #0b0f1d;
   line-height: 27.6px;
   font-size: 24px;
