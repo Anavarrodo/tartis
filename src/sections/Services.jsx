@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { sizes } from '../utils/breakpoints'
 import CardListComponent from '../components/CardListComponent'
+import BannerService from '../assets/images/bannerServicios.svg'
 
 const Services = () => {
   return (
@@ -25,7 +26,7 @@ export default Services
 
 const Container = styled.div`
   height: calc(100vh - 70px); /* Ajusta el tamaño del contenedor */
-  background-image: url('/images/bannerServicios.svg');
+  background-image: url(${BannerService});
   background-size: cover;
   background-position: center 20%; /* Mueve la imagen hacia abajo (ajustar el porcentaje según necesidad) */
   display: flex;

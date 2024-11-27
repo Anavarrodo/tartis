@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/tartis/static/css/main.d5895564.css",
-    "main.js": "/tartis/static/js/main.657296b2.js",
+    "main.js": "/tartis/static/js/main.d12c2c32.js",
     "static/js/453.3f722deb.chunk.js": "/tartis/static/js/453.3f722deb.chunk.js",
     "static/media/Lato-Regular.ttf": "/tartis/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/Lato-Bold.ttf": "/tartis/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/banner.svg": "/tartis/static/media/banner.88d2120787c14a1ef419dd519495a788.svg",
+    "static/media/bannerMobile.svg": "/tartis/static/media/bannerMobile.4d52c01186d6d08ea7d7e760d8c4ef4f.svg",
+    "static/media/bannerServicios.svg": "/tartis/static/media/bannerServicios.36a862950ba06bb0ee2e6bf27f2fa394.svg",
     "index.html": "/tartis/index.html",
+    "static/media/menu.svg": "/tartis/static/media/menu.56b075370ae6825ec2580c5dfb6a356e.svg",
     "main.d5895564.css.map": "/tartis/static/css/main.d5895564.css.map",
-    "main.657296b2.js.map": "/tartis/static/js/main.657296b2.js.map",
+    "main.d12c2c32.js.map": "/tartis/static/js/main.d12c2c32.js.map",
     "453.3f722deb.chunk.js.map": "/tartis/static/js/453.3f722deb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5895564.css",
-    "static/js/main.657296b2.js"
+    "static/js/main.d12c2c32.js"
   ]
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { sizes } from '../utils/breakpoints'
 import { useMediaQuery } from 'react-responsive'
+import bannerMobileImage from '../assets/images/bannerMobile.svg'
+import bannerImage from '../assets/images/banner.svg'
 
 const BannerComponent = () => {
   const isMobile = useMediaQuery({ maxWidth: sizes.mobile })
@@ -28,7 +30,7 @@ export default BannerComponent
 
 const Container = styled.div`
   height: 100vh; /* Ajusta el tamaño del contenedor */
-  background-image: url('/images/banner.svg');
+  background-image: url(${bannerImage});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; /* Centra la imagen */
@@ -39,7 +41,7 @@ const Container = styled.div`
   padding-left: 150px; /* Espacio a la izquierda para evitar que el texto esté pegado al borde */
 
   @media (max-width: ${sizes.mobile}px) {
-    background-image: url('/images/bannerMobile.svg');
+    background-image: url(${bannerMobileImage});
     background-position: center 30%; /* Mueve la imagen más hacia abajo en pantallas pequeñas */
     margin-top: 50px;
     padding-left: 60px;

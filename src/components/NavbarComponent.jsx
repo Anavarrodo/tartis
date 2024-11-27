@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import styled from 'styled-components'
 import { sizes } from '../utils/breakpoints'
 import { useMediaQuery } from 'react-responsive'
+import MenuImage from '../assets/images/menu.svg'
 
 const NavBarComponent = ({
   clickFirstSection,
@@ -166,7 +167,7 @@ const Section = styled.button`
 const MenuActions = styled.button`
   width: 30px;
   height: 30px;
-  background-image: url('/images/menu.svg');
+  background-image: url(${MenuImage});
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
