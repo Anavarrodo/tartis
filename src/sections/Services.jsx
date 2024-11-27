@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { sizes } from '../utils/breakpoints'
+import CardListComponent from '../components/CardListComponent'
 
 const Services = () => {
   return (
@@ -8,6 +9,14 @@ const Services = () => {
       <TitleSection>
         <Title>Innovación para Impulsar tu Negocio</Title>
       </TitleSection>
+      <CaruselSection>
+        <CardListComponent
+          title={'Implementación y mantenimiento de Proyectos'}
+          subtitle={
+            'Nos encargamos de la implementación de tus soluciones tecnológicas, ofreciendo soporte continuo para mantener tu software actualizado y funcionando de manera óptima.'
+          }
+        />
+      </CaruselSection>
     </Container>
   )
 }
@@ -20,6 +29,7 @@ const Container = styled.div`
   background-size: cover;
   background-position: center 20%; /* Mueve la imagen hacia abajo (ajustar el porcentaje según necesidad) */
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start; /* Alinea el contenido a la parte superior */
   padding-left: 240px; /* Espacio a la izquierda para evitar que el texto esté pegado al borde */
@@ -42,4 +52,8 @@ const Title = styled.p`
     font-size: 14px;
     font-family: 'fuenteSemi';
   }
+`
+
+const CaruselSection = styled.div`
+  margin-top: 60px;
 `
