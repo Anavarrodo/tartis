@@ -27,10 +27,11 @@ const BannerComponent = () => {
 export default BannerComponent
 
 const Container = styled.div`
-  height: calc(100vh - 70px); /* Ajusta el tamaño del contenedor */
+  height: 100vh; /* Ajusta el tamaño del contenedor */
   background-image: url('/images/banner.svg');
   background-size: cover;
-  background-position: center 20%; /* Mueve la imagen hacia abajo (ajustar el porcentaje según necesidad) */
+  background-repeat: no-repeat;
+  background-position: center center; /* Centra la imagen */
   display: flex;
   justify-content: flex-start;
   align-items: flex-start; /* Alinea el contenido a la parte superior */

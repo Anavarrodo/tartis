@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import NavBarComponent from './components/NavbarComponent'
 import BannerComponent from './components/BannerComponent'
+import Services from './sections/Services'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         clickThirdSection={() => console.log('Navegar a contacto')}
       />
       <BannerComponent />
+      <Services />
     </Container>
   )
 }
