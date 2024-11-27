@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tartis/static/css/main.d5895564.css",
+    "main.js": "/tartis/static/js/main.657296b2.js",
+    "static/js/453.3f722deb.chunk.js": "/tartis/static/js/453.3f722deb.chunk.js",
+    "static/media/Lato-Regular.ttf": "/tartis/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Lato-Bold.ttf": "/tartis/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "index.html": "/tartis/index.html",
+    "main.d5895564.css.map": "/tartis/static/css/main.d5895564.css.map",
+    "main.657296b2.js.map": "/tartis/static/js/main.657296b2.js.map",
+    "453.3f722deb.chunk.js.map": "/tartis/static/js/453.3f722deb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5895564.css",
+    "static/js/main.657296b2.js"
+  ]
+}
