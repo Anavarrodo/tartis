@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import CardComponent from './CardComponent'
 
-const CardListComponent = () => {
+const CardListComponent = ({ onCardClick }) => {
   const options = [
     {
       title: 'Implementación y mantenimiento de Proyectos',
@@ -19,7 +19,12 @@ const CardListComponent = () => {
   return (
     <Container>
       {options.map((op, idx) => (
-        <CardComponent key={idx} title={op.title} subtitle={op.subtitle} />
+        <CardComponent
+          key={idx}
+          title={op.title}
+          subtitle={op.subtitle}
+          onClick={() => onCardClick(idx)}
+        />
       ))}
     </Container>
   )
@@ -30,4 +35,6 @@ export default CardListComponent
 const Container = styled.div`
   display: flex;
   flex-direction: row;
+  width: fit-content; /* Ajusta el ancho al contenido */
+  margin-left: 260px;
 `
