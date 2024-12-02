@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import styled from 'styled-components'
 import CardListComponent from './CardListComponent'
+import { sizes } from '../utils/breakpoints'
 
 const CaruselComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -112,6 +113,9 @@ const Container = styled.div`
   position: relative;
   cursor: grab;
   height: 380px;
+  @media (max-width: ${sizes.mobile}px) {
+    height: 166px;
+  }
 `
 
 const Carousel = styled.div`
