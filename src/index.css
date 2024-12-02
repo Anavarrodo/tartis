@@ -32,3 +32,10 @@ code {
   font-weight: 600; /* Peso semi-negrita */
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'fuenteRegularMont';
+  src: url('../public/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400; /* Peso semi-negrita */
+  font-style: normal;
+}

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { sizes } from '../utils/breakpoints'
 import CaruselComponent from '../components/CaruselComponent'
 import BannerService from '../assets/images/bannerServicios.svg'
+import BannerServiceMobile from '../assets/images/BannerServiceMobile.svg'
 
 const Services = () => {
   return (
@@ -28,7 +29,9 @@ const Container = styled.div`
   flex-direction: column;
 
   @media (max-width: ${sizes.mobile}px) {
-    padding-left: 20px;
+    background-image: url(${BannerServiceMobile});
+    background-position: center 30%; /* Mueve la imagen más hacia abajo en pantallas pequeñas */
+    height: 35vh;
   }
 `
 
@@ -44,9 +47,13 @@ const Title = styled.p`
     line-height: 16.8px;
     font-size: 14px;
     font-family: 'fuenteSemi';
+    margin-left: 10px;
   }
 `
 
 const CaruselSection = styled.div`
   margin-top: 60px;
+  @media (max-width: ${sizes.mobile}px) {
+    margin-top: 10px;
+  }
 `

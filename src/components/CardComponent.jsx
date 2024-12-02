@@ -28,14 +28,19 @@ const Container = styled.div`
   flex-shrink: 0;
 
   @media (max-width: ${sizes.mobile}px) {
-    width: 100%;
-    margin-right: 0;
+    flex: 0 249px; /* Ancho fijo de la tarjeta */
+    height: 150px;
+    margin-right: 20px;
   }
 `
 
 const SectionText = styled.div`
   width: 750px;
   padding: 50px 20px 20px 20px;
+  @media (max-width: ${sizes.mobile}px) {
+    width: 229px;
+    padding: 10px;
+  }
 `
 
 const Title = styled.p`
@@ -45,8 +50,8 @@ const Title = styled.p`
   font-family: 'fuenteNegrita';
 
   @media (max-width: ${sizes.mobile}px) {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 13px;
+    line-height: 15.6px;
   }
 `
 
@@ -54,10 +59,10 @@ const Subtitle = styled.p`
   color: #272727;
   line-height: 24.38px;
   font-size: 20px;
-  font-family: 'fuenteRegular';
+  font-family: 'fuenteRegularMont';
 
   @media (max-width: ${sizes.mobile}px) {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 12.19px;
   }
 `

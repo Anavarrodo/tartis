@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import CardComponent from './CardComponent'
+import { sizes } from '../utils/breakpoints'
 
 const CardListComponent = ({ onCardClick }) => {
   const options = [
@@ -37,4 +38,8 @@ const Container = styled.div`
   flex-direction: row;
   width: fit-content; /* Ajusta el ancho al contenido */
   margin-left: 260px;
+
+  @media (max-width: ${sizes.mobile}px) {
+    margin-left: 10px;
+  }
 `
