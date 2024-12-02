@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tartis/static/css/main.3eee8018.css",
-    "main.js": "/tartis/static/js/main.62e66c52.js",
+    "main.css": "/tartis/static/css/main.5bf6589e.css",
+    "main.js": "/tartis/static/js/main.9c2b6eed.js",
     "static/js/453.3f722deb.chunk.js": "/tartis/static/js/453.3f722deb.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/tartis/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
     "static/media/Lato-Regular.ttf": "/tartis/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
@@ -12,12 +12,12 @@
     "static/media/BannerServiceMobile.svg": "/tartis/static/media/BannerServiceMobile.3f33dc1cd342c1dfa669ca56d90f19cb.svg",
     "index.html": "/tartis/index.html",
     "static/media/menu.svg": "/tartis/static/media/menu.56b075370ae6825ec2580c5dfb6a356e.svg",
-    "main.3eee8018.css.map": "/tartis/static/css/main.3eee8018.css.map",
-    "main.62e66c52.js.map": "/tartis/static/js/main.62e66c52.js.map",
+    "main.5bf6589e.css.map": "/tartis/static/css/main.5bf6589e.css.map",
+    "main.9c2b6eed.js.map": "/tartis/static/js/main.9c2b6eed.js.map",
     "453.3f722deb.chunk.js.map": "/tartis/static/js/453.3f722deb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eee8018.css",
-    "static/js/main.62e66c52.js"
+    "static/css/main.5bf6589e.css",
+    "static/js/main.9c2b6eed.js"
   ]
 }
