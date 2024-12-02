@@ -70,7 +70,7 @@ const CaruselSection = styled.div`
   }
 `
 const TextSection = styled.div`
-  margin-bottom: 135px; /* Ajusta la posición del texto dinámicamente */
+  margin-bottom: 56px; /* Ajusta la posición del texto dinámicamente */
   margin-left: 295px;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@ const Text = styled.p`
 `
 
 const Subtext = styled.p`
-  max-width: 900px;
+  max-width: 940px;
   font-size: 20px;
   color: #272727;
   margin-top: 10px; /* Ajusta la distancia entre el texto y el subtítulo */

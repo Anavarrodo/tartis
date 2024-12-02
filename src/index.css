@@ -40,3 +40,17 @@ code {
   font-weight: 400; /* Peso semi-negrita */
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'fuenteNegritaMont';
+  src: url('../public/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700; /* Peso negrita */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fuenteSemiMont';
+  src: url('../public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* Peso semi-negrita */
+  font-style: normal;
+}
