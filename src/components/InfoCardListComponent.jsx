@@ -55,8 +55,10 @@ export default InfoCardListComponent
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: baseline;
 
   @media (max-width: ${sizes.mobile}px) {
-    margin-left: 10px;
+    display: flex;
+    align-items: center;
   }
 `

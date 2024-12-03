@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { sizes } from '../utils/breakpoints'
 
 const InfoCardComponent = ({ info, infoBold, photo, isLeft, isRight, max }) => {
   console.log(isLeft)
@@ -40,8 +41,14 @@ const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
-  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  @media (max-width: ${sizes.mobile}px) {
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 `
 
 const Photo = styled.div`
@@ -50,6 +57,12 @@ const Photo = styled.div`
   overflow: hidden;
   margin-right: ${(props) => props.isRight && '25px'};
   margin-left: ${(props) => props.isLeft && '25px'};
+
+  @media (max-width: ${sizes.mobile}px) {
+    margin-right: ${(props) => props.isRight && '10px'};
+    margin-left: ${(props) => props.isLeft && '10px'};
+    width: 144px;
+  }
 
   img {
     width: 100%;
@@ -64,6 +77,10 @@ const ContainerInfo = styled.div`
   flex-direction: column;
   padding: 30px;
   align-items: ${(props) => props.isLeft && 'end'};
+
+  @media (max-width: ${sizes.mobile}px) {
+    padding: 10px;
+  }
 `
 
 const Info = styled.p`
@@ -73,6 +90,12 @@ const Info = styled.p`
   color: #272727;
   font-family: 'fuenteRegularMont';
   text-align: ${(props) => props.isLeft && 'right'};
+
+  @media (max-width: ${sizes.mobile}px) {
+    font-size: 10px;
+    line-height: 12.5px;
+    max-width: 500px;
+  }
 `
 
 const InfoBold = styled(Info)`
