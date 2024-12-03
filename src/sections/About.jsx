@@ -14,7 +14,7 @@ const About = () => {
 export default About
 
 const Container = styled.div`
-  margin: 50px 0 50px 325px;
+  margin: 0 50px;
 
   @media (max-width: ${sizes.mobile}px) {
     margin: 0 10px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import InfoCardComponent from './InfoCardComponent'
 import { sizes } from '../utils/breakpoints'
+import InfoCardComponent from './InfoCardComponent'
 import info1 from '../assets/images/info_1.svg'
 import info2 from '../assets/images/info_2.svg'
 import info3 from '../assets/images/info_3.svg'
@@ -46,6 +46,17 @@ const InfoCardListComponent = () => {
           max={op.max}
         />
       ))}
+      <TextContainer>
+        <Text>
+          No solo nos centramos en entregar proyectos, sino también en construir
+          relaciones de largo plazo con nuestros clientes. Ofrecemos formación
+          integral y soporte técnico continuo para asegurarnos de que tu equipo
+          pueda aprovechar al máximo las soluciones implementadas. Nuestro
+          compromiso es ser tu socio de confianza en cada etapa de tu viaje
+          digital, proporcionándote las herramientas y el conocimiento necesario
+          para mantener tu negocio a la vanguardia de la innovación tecnológica.
+        </Text>
+      </TextContainer>
     </Container>
   )
 }
@@ -55,10 +66,28 @@ export default InfoCardListComponent
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+`
+
+const TextContainer = styled.div`
+  width: 844px;
+  margin-bottom: 50px;
+  @media (max-width: ${sizes.mobile}px) {
+    width: 95%;
+  }
+`
+
+const Text = styled.p`
+  text-align: end;
+  font-family: 'fuenteRegularMont';
+  font-size: 20px;
+  line-height: 22.92px;
+  color: #272727;
 
   @media (max-width: ${sizes.mobile}px) {
-    display: flex;
-    align-items: center;
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: 10px;
+    line-height: 12.19px;
   }
 `

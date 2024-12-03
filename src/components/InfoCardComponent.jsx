@@ -3,8 +3,6 @@ import styled from 'styled-components'
 import { sizes } from '../utils/breakpoints'
 
 const InfoCardComponent = ({ info, infoBold, photo, isLeft, isRight, max }) => {
-  console.log(isLeft)
-  console.log(isRight)
   return (
     <Container>
       {isLeft && (

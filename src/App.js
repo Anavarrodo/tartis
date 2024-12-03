@@ -6,16 +6,18 @@ import About from './sections/About'
 
 function App() {
   return (
-    <Container>
+    <>
       <NavBarComponent
         clickFirstSection={() => console.log('Navegar a nuestros servicios')}
         clickSecondSection={() => console.log('Navegar a sobre nosotros')}
         clickThirdSection={() => console.log('Navegar a contacto')}
       />
-      <BannerComponent />
-      <Services />
-      <About />
-    </Container>
+      <Container>
+        <BannerComponent />
+        <Services />
+        <About />
+      </Container>
+    </>
   )
 }
 
