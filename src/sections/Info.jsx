@@ -56,7 +56,7 @@ const Info = () => {
       </ContainerClient>
 
       <ContainerLabels>
-        <Carousel indicators={false} interval={1000}>
+        <Carousel indicators={false} interval={3000}>
           {optionsLabels.map((opt, idx) => {
             return (
               <Carousel.Item key={idx}>
@@ -212,7 +212,6 @@ const CardLabels = styled.div`
   text-align: center;
   border-radius: 10px;
   margin: 0 auto; /* Centrar horizontalmente */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   color: #ffffff;
 
   @media (max-width: ${sizes.mobile}px) {
