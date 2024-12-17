@@ -3,6 +3,7 @@ import NavBarComponent from './components/NavbarComponent'
 import BannerComponent from './components/BannerComponent'
 import Services from './sections/Services'
 import About from './sections/About'
+import Info from './sections/Info'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <BannerComponent />
         <Services />
         <About />
+        <Info />
       </Container>
     </>
   )
